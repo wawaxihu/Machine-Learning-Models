@@ -37,7 +37,7 @@ if st.button("Submit"):
 
 
         if not os.path.exists(model_path):
-            st.error("Model file 'model.pkl' not found at E:\\Python\\streamlit")
+            st.error("Model file 'model.pkl' not found at D:\\Code\\streamlit")
         else:
             # Load model
             model = joblib.load(model_path)
