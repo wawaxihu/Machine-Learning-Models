@@ -5,3 +5,6 @@ numpy<2.0.0
 matplotlib
 pandas
 plotly
+joblib==1.4.2
+xgboost==2.1.1
+scikit-learn==1.5.2
